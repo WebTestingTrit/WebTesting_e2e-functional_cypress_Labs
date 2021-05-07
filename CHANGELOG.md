@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs/compare/v2.0.0...v2.0.1) (2021-05-07)
+
+
+### Bug Fixes
+
+* update to new apis and urls ([6034b2c](https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs/commit/6034b2c335235aaad2ac9bf4e3477a07e7264471))
+
 ## 2.0.0 (2021-05-07)
 
 
