@@ -1,6 +1,6 @@
 {
   "name": "webtesting-e2e-functional-cypress-labs",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Cypress e2e Testing project",
   "author": {
     "name": "Alberto Basalo",
