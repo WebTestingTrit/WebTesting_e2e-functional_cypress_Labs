@@ -13,9 +13,7 @@
     "statusBar.background": "#832561",
     "statusBarItem.hoverBackground": "#ab307e",
     "statusBar.foreground": "#e7e7e7",
-    "activityBar.activeBackground": "#ab307e",
-    "statusBar.border": "#832561",
-    "titleBar.border": "#832561"
+    "activityBar.activeBackground": "#ab307e"
   },
   "peacock.color": "#832561",
   "workbench.colorTheme": "Night Owl",
