@@ -15,9 +15,9 @@
 describe('GIVEN: An API with 2 projects', () => {
   before(() => {
     const stubbedApiUrl = 'https://api-base-21.herokuapp.com/api/pub/projects';
-    const fixtureData = 'fx:projects';
-    cy.server();
-    cy.route(stubbedApiUrl, fixtureData);
+    const fixtureData = 'projects';
+    cy.intercept(stubbedApiUrl, { fixture: 'projects' });
+    // cy.route(stubbedApiUrl, fixtureData);
   });
   context('WHEN: I visit the projects page', () => {
     before(() => {
