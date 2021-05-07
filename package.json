@@ -22,6 +22,7 @@
     "Test",
     "Cypress"
   ],
+  "type": "commonjs",
   "main": "main.js",
   "scripts": {
     "start": "cypress open",
