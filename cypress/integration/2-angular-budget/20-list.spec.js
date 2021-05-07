@@ -14,7 +14,7 @@
 
 describe('GIVEN: An API with 2 projects', () => {
   before(() => {
-    const stubbedApiUrl = 'https://api-base.herokuapp.com/api/pub/projects';
+    const stubbedApiUrl = 'https://api-base-21.herokuapp.com/api/pub/projects';
     const fixtureData = 'fx:projects';
     cy.server();
     cy.route(stubbedApiUrl, fixtureData);
@@ -23,11 +23,11 @@ describe('GIVEN: An API with 2 projects', () => {
     before(() => {
       const homeSpaUrl = 'https://angularbuilders.github.io/angular-budget';
       cy.visit(homeSpaUrl);
-      cy.get('a').contains('Projects').click();
+      cy.get('a').contains('Proyectos').click();
     });
     it('THEN: should show 2 items on the projects list', () => {
       const expectedListItemsLength = 2;
-      const selectorListItems = 'section > ul > li';
+      const selectorListItems = 'tbody > tr';
       cy.get(selectorListItems).should('have.length', expectedListItemsLength);
     });
   });
