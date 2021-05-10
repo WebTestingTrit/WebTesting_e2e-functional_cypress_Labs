@@ -6,7 +6,7 @@ Feature: add project
     - In order to: manage it
 
 
-  Scenario: create a nee project
+  Scenario: create a new project
 
     Given The form to create projects
     When  I type and submit the needed information

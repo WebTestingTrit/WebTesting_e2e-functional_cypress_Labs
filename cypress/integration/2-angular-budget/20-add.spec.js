@@ -10,13 +10,12 @@ describe('GIVEN: The form to create projects', () => {
   });
   context('WHEN: I type and submit the needed information', () => {
     before(() => {
-      cy.waitFor('navigation');
       projectsNewPage.nameInput.type('Test domination');
       projectsNewPage.startInput.type('2021-05-15');
       projectsNewPage.endInput.type('2021-09-11');
       projectsNewPage.budgetInput.type(99999);
       projectsNewPage.descriptionInput.type('Improve my testing skills');
-      //projectsNewPage.submit();
+      projectsNewPage.submit();
     });
     it('THEN: Should see it on the main page', () => {
       const expectedProjectTitle = 'Test domination';
