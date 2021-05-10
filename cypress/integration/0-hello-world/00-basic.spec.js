@@ -1,8 +1,6 @@
-/// <reference types="Cypress" />
-
-describe('Visiting the url https://www.bitademy.com/', () => {
-  it('should have _bitAdemy_ on its title', () => {
-    cy.visit('https://www.bitademy.com/');
-    cy.title().should('include', 'bitAdemy');
+describe('Visiting the url https://labsademy.github.io/ProtonTasks/', () => {
+  it('should have _ProtonTasks_ on its title', () => {
+    cy.visit('https://labsademy.github.io/ProtonTasks/');
+    cy.title().should('include', 'Proton Tasks');
   });
 });

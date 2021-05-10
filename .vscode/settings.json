@@ -16,7 +16,7 @@
     "activityBar.activeBackground": "#ab307e"
   },
   "peacock.color": "#832561",
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "GitHub Dark Default",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "prettier.useEditorConfig": true,
