@@ -26,6 +26,14 @@ class ProjectsNew {
     cy.get('a').contains('Nuevo').click();
   }
 
+  typeName(value) {
+    type('#name', value);
+  }
+
+  type(selector, value) {
+    cy.get(selector).type(value);
+  }
+
   submit() {
     cy.get('button').click();
   }
