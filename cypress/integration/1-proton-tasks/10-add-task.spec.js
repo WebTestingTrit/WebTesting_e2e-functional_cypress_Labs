@@ -1,4 +1,5 @@
 describe(`GIVEN: the form to add tasks`, () => {
+  // Arrange constants
   const sutUrl = 'https://labsademy.github.io/ProtonTasks/';
   const selectorFormInput = 'form > input';
   const inputTaskDescription = 'Dummy task one';
@@ -7,6 +8,7 @@ describe(`GIVEN: the form to add tasks`, () => {
   const expectedTaskDescription = 'Dummy task one';
   const selectorIncompleteListLabel = '#incomplete-tasks > li:first-child > label';
   const selectorIncompleteListButton = '#incomplete-tasks > li:first-child > button.delete';
+
   context(`WHEN: I type a task description and click on _Add task_ `, () => {
     before(() => {
       cy.visit(sutUrl);

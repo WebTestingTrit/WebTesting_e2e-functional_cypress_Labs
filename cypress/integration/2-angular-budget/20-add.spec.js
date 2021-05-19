@@ -1,6 +1,8 @@
 import { Home } from '../../support/pages/home';
 import { ProjectsNew } from '../../support/pages/projects-new';
 
+// page pattern
+
 const projectsNewPage = new ProjectsNew();
 const homePage = new Home();
 

@@ -6,8 +6,8 @@ describe(`GIVEN: the list with an undone task`, () => {
   const expectedTaskDescription = 'Dummy task one';
   context(`WHEN: I click on the _check box_`, () => {
     before(() => {
-      cy.visit(Cypress.env('baseUrl'));
-      cy.addTask(inputTaskDescription);
+      cy.visit(Cypress.env('baseUrl')); // Config
+      cy.addTask(inputTaskDescription); // Command
       cy.get(selectorIncompletesFirstCheck).click();
     });
     it(`THEN: should not appear on the _Things to do_ list`, () => {

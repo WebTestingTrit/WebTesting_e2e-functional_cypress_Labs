@@ -8,6 +8,7 @@ describe('GIVEN: the app calls an endpoint', () => {
     });
     it('THEN: should wait for it', () => {
       homePage.visit();
+      // API alias
       cy.wait('@slowApi');
       cy.contains('Mis Proyectos');
     });

@@ -1,5 +1,6 @@
 describe('GIVEN: I have two projects', () => {
   before(() => {
+    // API double
     const stubbedApiUrl = 'https://api-base-21.herokuapp.com/api/pub/projects';
     const fixtureData = { fixture: 'projects' };
     cy.intercept(stubbedApiUrl, fixtureData);
