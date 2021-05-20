@@ -20,7 +20,10 @@ describe('GIVEN: a form linked to an API endpoint', () => {
     });
     it('THEN: should send data to the API', () => {
       // cy.wait('@postApiRequest').its('request.body').should('include.any.keys', 'title');
+      // cy.wait('@postApiRequest').its('request.body.title').should('equal', 'Catch Request');
+
       cy.wait('@postApiRequest').then(intercept => {
+        expect(intercept.request.body.budget).equal(666);
         expect(intercept.request.body.title).equal('Catch Request');
       });
     });
