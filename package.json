@@ -1,20 +1,20 @@
 {
-  "name": "webtesting-e2e-functional-cypress-labs",
+  "name": "web_testing-e2e-functional-cypress-labs",
   "version": "2.0.4",
   "description": "Cypress e2e Testing project",
   "author": {
     "name": "Alberto Basalo",
-    "email": "learn@bitademy.com",
+    "email": "albertobasalo@hotmail.com",
     "url": "https://twitter.com/albertobasalo"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs/issues"
+    "url": "https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/issues"
   },
-  "homepage": "https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs#readme",
+  "homepage": "https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs.git"
+    "url": "git+https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs.git"
   },
   "keywords": [
     "JS",
@@ -28,20 +28,20 @@
     "start": "cypress open",
     "test": "cypress run",
     "format": "prettier --write",
-    "prerelease": "standard-version ",
-    "release": "git push --follow-tags origin master",
+    "predeploy": "standard-version ",
+    "deploy": "git push --follow-tags origin main",
     "updates": "ncu -u"
   },
   "devDependencies": {
-    "cypress": "7.3.0",
-    "eslint": "^7.26.0",
+    "cypress": "9.3.1",
+    "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-prettier": "^3.4.0",
-    "mocha": "^8.4.0",
-    "mochawesome": "^6.2.2",
-    "prettier": "^2.3.0",
-    "standard-version": "^9.3.0",
-    "npm-check-updates": "^11.5.13"
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^9.1.4",
+    "mochawesome": "^7.0.1",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2",
+    "npm-check-updates": "^12.1.0"
   }
 }
