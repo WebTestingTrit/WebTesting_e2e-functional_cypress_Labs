@@ -1,6 +1,6 @@
 {
   "name": "webtesting-e2e-functional-cypress-labs",
-  "version": "1.0.0",
+  "version": "2.0.4",
   "description": "Cypress e2e Testing project",
   "author": {
     "name": "Alberto Basalo",
@@ -22,20 +22,26 @@
     "Test",
     "Cypress"
   ],
+  "type": "commonjs",
   "main": "main.js",
   "scripts": {
     "start": "cypress open",
     "test": "cypress run",
-    "format": "prettier --write"
+    "format": "prettier --write",
+    "prerelease": "standard-version ",
+    "release": "git push --follow-tags origin master",
+    "updates": "ncu -u"
   },
   "devDependencies": {
-    "cypress": "4.10.0",
-    "eslint": "^7.3.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "mocha": "^8.0.1",
-    "mochawesome": "^6.1.1",
-    "prettier": "^2.0.5"
+    "cypress": "7.3.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "prettier": "^2.3.0",
+    "standard-version": "^9.3.0",
+    "npm-check-updates": "^11.5.13"
   }
 }
