@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.1](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/compare/v3.1.0...v3.1.1) (2022-10-21)
+
+
+### Bug Fixes
+
+* not working angular-budget ([eaf618e](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/eaf618e7426b44f619267ef434ee53e4e8237ab8))
+
 ## [3.1.0](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/compare/v3.0.1...v3.1.0) (2022-10-21)
 
 
