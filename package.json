@@ -45,6 +45,7 @@
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0",
     "json-server": "^0.17.0",
-    "json-server-auth": "^2.1.0"
+    "json-server-auth": "^2.1.0",
+    "cssnano": "^5.1.13"
   }
 }
