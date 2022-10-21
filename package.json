@@ -27,8 +27,8 @@
   "scripts": {
     "start": "cypress open",
     "test": "cypress run",
-    "target": "parcel ./src/index.html",
-    "api": "json-server-auth ./database/db.json -r ./database/routes.json",
+    "target:tasks": "parcel .target/tasks/src/index.html",
+    "target:api": "json-server-auth ./database/db.json -r ./database/routes.json",
     "format": "prettier --write",
     "predeploy": "standard-version ",
     "deploy": "git push --follow-tags origin main",

@@ -7,10 +7,10 @@ E2E examples and tasks
 ```bash
 #npm
 npm i
+npm run target:api
+npm run target:tasks
 npm start
-#yarn
-yarn
-yarn start
+
 ```
 
 ---
