@@ -14,5 +14,6 @@
     "reportDir": "cypress/reports",
     "reportFilename": "report",
     "overwrite": false
-  }
+  },
+  "ignoreTestFiles": ["*.feature"]
 }

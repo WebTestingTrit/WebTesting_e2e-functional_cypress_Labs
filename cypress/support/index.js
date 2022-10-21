@@ -15,12 +15,12 @@
 
 // Import commands.js using ES2015 syntax:
 // Alternatively you can use CommonJS syntax:
-// require('./commands')
+// require('./commands');
 import './commands';
 
 Cypress.on('uncaught:exception', (err, runnable) => {
   if (err.message.indexOf('Uncaught ReferenceError: parcelRequire is not defined')) {
-    console.warn('Parcel related issue');
+    console.warn('No worries. Parcel related issue');
     return false;
   }
   return true;

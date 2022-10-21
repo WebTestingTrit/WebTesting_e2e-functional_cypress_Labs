@@ -3,7 +3,10 @@
     "cypress/globals": true
   },
 
-  "extends": ["plugin:prettier/recommended", "plugin:cypress/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended"],
 
   "parserOptions": {
     "ecmaVersion": 9,

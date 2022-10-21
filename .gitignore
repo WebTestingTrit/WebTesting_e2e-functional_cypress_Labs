@@ -62,3 +62,6 @@ typings/
 
 # local enviroment configuration
 cypress.env.json
+
+cypress/reports
+cypress/videos
