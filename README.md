@@ -13,8 +13,13 @@ npm run target:api
 npm run target:tasks
 # run cypres in another terminal
 npm start
-
 ```
+
+## ⚠️ Attention, heads up!
+
+> Angular-Budget target app is not working anymore
+
+### You can see the cypress code in txt files to not disturb normal tests execution
 
 ---
 
