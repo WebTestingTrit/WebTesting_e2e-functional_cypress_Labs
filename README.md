@@ -7,8 +7,11 @@ E2E examples and tasks
 ```bash
 #npm
 npm i
+# run api server in one terminal
 npm run target:api
+# run tasks web in another terminal
 npm run target:tasks
+# run cypres in another terminal
 npm start
 
 ```
