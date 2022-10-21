@@ -7,7 +7,7 @@ Feature: well formed html
 
     Scenario: I am visiting the home page
 
-      Given the url https://labsademy.github.io/ProtonTasks/
+      Given the url http://localhost:1234/
       When I visit it
       Then should have charset UTF-8
       And should have _Proton Tasks_ on Title

@@ -1,4 +1,4 @@
-const sutUrl = 'https://labsademy.github.io/ProtonTasks/';
+const sutUrl = 'http://localhost:1234/';
 describe(`GIVEN: the url ${sutUrl}`, () => {
   context(`WHEN: I visit it`, () => {
     before(() => cy.visit(sutUrl));

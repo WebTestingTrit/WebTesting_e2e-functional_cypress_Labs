@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 import { Home } from '../../support/pages/home';
 import { ProjectsNew } from '../../support/pages/projects-new';
 

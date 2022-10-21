@@ -1,7 +1,7 @@
 import { ProjectsNew } from '../../support/pages/projects-new';
 describe('GIVEN: a form linked to an API endpoint', () => {
   before(() => {
-    const postApiUrl = 'https://api-base-21.herokuapp.com/api/pub/projects/';
+    const postApiUrl = 'http://localhost:3000/projects/';
     cy.intercept({
       method: 'POST',
       url: postApiUrl,

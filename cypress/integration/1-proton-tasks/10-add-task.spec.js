@@ -1,6 +1,6 @@
 describe(`GIVEN: the form to add tasks`, () => {
   // Arrange constants
-  const sutUrl = 'https://labsademy.github.io/ProtonTasks/';
+  const sutUrl = 'http://localhost:1234/';
   const selectorFormInput = 'form > input';
   const inputTaskDescription = 'Dummy task one';
   const selectorFormButton = 'form > button';
