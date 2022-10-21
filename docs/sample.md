@@ -2,7 +2,7 @@
 
 ## SUT
 
-- [e2e-ToDoList](https://github.com/LabsAdemy/ProtonTasks)
+- [e2e-ToDoList](http://localhost:1234/)
 
 ## Functional tests already done
 

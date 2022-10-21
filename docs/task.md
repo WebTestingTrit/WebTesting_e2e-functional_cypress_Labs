@@ -1,10 +1,8 @@
 # Student Practice
 
-> Use this template as a starting project:
-
-- [Detector](https://github.com/AtomicBuilders/detector)
-
 ## SUT
+
+> 💣 Not working any more
 
 - [Projects CRUD](https://angularbuilders.github.io/angular-budget/projects)
 
