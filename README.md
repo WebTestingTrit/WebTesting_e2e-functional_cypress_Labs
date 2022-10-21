@@ -21,6 +21,10 @@ npm start
 
 ### You can see the cypress code in txt files to not disturb normal tests execution
 
+### Alternatively, you can see a working sample from another course
+
+- [Sample from Angular testing](https://github.com/Angular-Testing/angular-testing)
+
 ---
 
 <footer>
