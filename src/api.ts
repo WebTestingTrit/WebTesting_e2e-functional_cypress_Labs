@@ -1,4 +1,4 @@
-const url = 'https://api-base-21.herokuapp.com/api/pub/tasks/';
+const url = 'http://localhost:3000/tasks/';
 
 export { getAllTasks, getTask, postTask, putTask, deleteTask };
 

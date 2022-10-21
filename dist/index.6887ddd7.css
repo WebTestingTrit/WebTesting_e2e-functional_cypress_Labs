@@ -1,0 +1,40 @@
+input, button {
+  outline: none;
+}
+
+button {
+  color: #888;
+  width: 60px;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+}
+
+button:hover {
+  color: #333;
+}
+
+ul li input[type="text"] {
+  display: none;
+}
+
+ul li.editMode input[type="text"] {
+  display: block;
+}
+
+ul li.editMode label {
+  display: none;
+}
+
+li > .delete:hover {
+  color: #cf2323;
+}
+
+form > button:hover {
+  color: #0fc57c;
+}
+
+/*# sourceMappingURL=index.6887ddd7.css.map */

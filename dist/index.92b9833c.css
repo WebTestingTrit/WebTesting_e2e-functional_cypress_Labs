@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+}
+
+body, body > main {
+  flex-direction: column;
+  flex: auto;
+  display: flex;
+}
+
+body > main > nav {
+  flex-direction: row;
+  order: -1;
+}
+
+body > main > section {
+  flex: auto;
+}
+
+body > main > aside {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body > main {
+    flex-direction: row;
+  }
+
+  body > main > nav, body > main > aside {
+    flex-direction: column;
+    flex: 0 0 260px;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=index.92b9833c.css.map */

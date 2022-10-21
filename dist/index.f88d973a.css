@@ -1,0 +1,81 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, serif;
+  font-size: 100%;
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+
+ul, ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul li, ol li {
+  line-height: 1.5rem;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-family: Comfortaa, sans-serif;
+  line-height: 1.5rem;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-size: 2.828rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.414rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: .707rem;
+}
+
+h5 {
+  font-size: .471rem;
+}
+
+h6 {
+  font-size: .314rem;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+table td, table th {
+  padding: 0;
+  line-height: 33px;
+}
+
+code {
+  vertical-align: bottom;
+}
+
+/*# sourceMappingURL=index.f88d973a.css.map */
