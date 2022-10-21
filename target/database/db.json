@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "email": "admin@world.org",
+      "password": "$2a$10$lRC5Frpy434Pj1fSn2SnF.B3sMbCU6P19hWmIue66uK1/SxDCqW7e",
+      "id": "world_admin",
+      "name": "World Admin"
+    }
+  ],
+  "projects": [
+    {
+      "id": "rule_the_world",
+      "name": "Rule the world",
+      "description": "Take over the world",
+      "startDate": "2019-12-31T23:00:00.000Z",
+      "endDate": "2024-12-30T23:00:00.000Z",
+      "budget": 500,
+      "status": "active",
+      "userId": "world_admin"
+    },
+    {
+      "id": "conquer_mars",
+      "name": "Conquer Mars",
+      "description": "Establish a civilization on Mars",
+      "startDate": "2021-12-31T23:00:00.000Z",
+      "budget": 990,
+      "status": "planned",
+      "userId": "world_admin"
+    }
+  ],
+  "tasks": []
+}

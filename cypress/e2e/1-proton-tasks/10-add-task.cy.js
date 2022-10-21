@@ -6,8 +6,8 @@ describe(`GIVEN: the form to add tasks`, () => {
   const selectorFormButton = 'form > button';
   const inputButtonText = 'Add task';
   const expectedTaskDescription = 'Dummy task one';
-  const selectorIncompleteListLabel = '#incomplete-tasks > li:first-child > label';
-  const selectorIncompleteListButton = '#incomplete-tasks > li:first-child > button.delete';
+  const selectorIncompleteListLabel = '#incomplete-tasks > li:last-child > label';
+  const selectorIncompleteListButton = '#incomplete-tasks > li:last-child > button.delete';
 
   context(`WHEN: I type a task description and click on _Add task_ `, () => {
     before(() => {

@@ -1,6 +1,6 @@
 describe(`GIVEN: the list with an undone task`, () => {
   const inputTaskDescription = 'Dummy task one';
-  const selectorIncompletesFirstDelete = '#incomplete-tasks > li:first > .delete';
+  const selectorIncompletesLastDelete = '#incomplete-tasks > li:last-child > .delete';
   const selectorIncompleteList = '#incomplete-tasks ';
   const selectorCompleteList = '#completed-tasks';
   const expectedTaskDescription = 'Dummy task one';
@@ -9,7 +9,7 @@ describe(`GIVEN: the list with an undone task`, () => {
     before(() => {
       cy.visit(Cypress.env('baseUrl'));
       cy.addTask(inputTaskDescription); // command
-      cy.get(selectorIncompletesFirstDelete).click();
+      cy.get(selectorIncompletesLastDelete).click();
     });
     it(`THEN: should not appear on the _Things to do_ list`, () => {
       cy.get(selectorIncompleteList).should('not.contain.text', expectedTaskDescription);

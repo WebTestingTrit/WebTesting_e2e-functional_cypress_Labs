@@ -1,7 +1,7 @@
 describe(`GIVEN: the list with an undone task`, () => {
   const inputTaskDescription = 'Dummy task one';
   const selectorCompleteList = '#completed-tasks > li:first';
-  const selectorIncompletesFirstCheck = '#incomplete-tasks > li:first > [type="checkBox"]';
+  const selectorIncompletesFirstCheck = '#incomplete-tasks > li:last-child > [type="checkBox"]';
   const selectorIncompleteList = '#incomplete-tasks ';
   const expectedTaskDescription = 'Dummy task one';
   context(`WHEN: I click on the _check box_`, () => {
