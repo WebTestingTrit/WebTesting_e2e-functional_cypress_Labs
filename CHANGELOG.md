@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/compare/v3.0.1...v3.1.0) (2022-10-21)
+
+
+### Features
+
+* move tasks to target folder ([a537fd8](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/a537fd83839e09c4ee87cc010ebdef26816330ff))
+* run local api ([fb0fc0f](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/fb0fc0f99049d98d05950d322da307c7ae7113b7))
+* target proton ([51b439d](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/51b439d8ab013e9669eae9e004abc0949fbc8574))
+* target proton tasks ([7f08ca9](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/7f08ca9fcce711ebe932379a76408ef075345126))
+* tasks tested ([f7c5bad](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/f7c5badcf97f3d9a642d0ee404b3a33860d755db))
+* update cypress v 10 ([34dde27](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/34dde27f0d14e03010916b1b842067aa32b31511))
+
+
+### Bug Fixes
+
+* replace api server ([e2260db](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/commit/e2260db155eb713536db8adcdee22082e2474f04))
+
 ### [3.0.1](https://github.com/WebTestingTrit/WebTesting_e2e-functional_cypress_Labs/compare/v3.0.0...v3.0.1) (2022-10-21)
 
 ## 3.0.0 (2022-01-19)
